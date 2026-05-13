@@ -2,6 +2,10 @@
 
 > A standalone desktop application for creating, editing, and exporting **Anno 117** map templates (`.a7tinfo`).
 
+[Thumbnail](thumbnail_en.png)
+
+-> Deutsches Readme findet ihr [hier](README_de.md)
+
 ---
 
 ## Table of Contents
@@ -130,28 +134,7 @@ All paths are saved across sessions in the platform-appropriate user config dire
 
 ## 5. Interface Overview
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  [Anno 117 - Map Template Editor]   [New Map] [Import] [Export] │  ← Header / toolbar
-├──────────────────┬──────────────────────────────────────────────┤
-│  Latium  │Albion │                                              │  ← Region tabs
-├──────────┴───────┤   Isometric map canvas (interactive)         │
-│  Side Panel      │                                              │
-│  ─ Difficulty    │                                              │
-│  ─ Place Islands │          ◆  Playable Area diamond            │
-│    • Spawn       │                                              │
-│    • Starter     │    ░  Island polygons / thumbnail images     │
-│    • Normal      │                                              │
-│    • NPCs        │                                              │
-│    • Vulcan      │                                              │
-│  ─ Custom Island │                                              │
-│  ─ Edit / Delete │                                              │
-│  ─ View options  │                                              │
-│  ─ Statistics    │                                              │
-└──────────────────┴──────────────────────────────────────────────┘
-│ Status bar                                                       │
-└─────────────────────────────────────────────────────────────────┘
-```
+[Main app window layout](main_window.png)
 
 **Tabs:** Each region (Latium / Albion) has its own tab with an independent map canvas and side panel. Templates for both regions can be open simultaneously.
 
