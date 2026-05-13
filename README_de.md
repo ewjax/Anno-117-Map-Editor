@@ -2,7 +2,7 @@
 
 > Eine eigenständige Desktop-Anwendung zum Erstellen, Bearbeiten und Exportieren von **Anno 117**-Kartenvorlagen (`.a7tinfo`).
 
-![Thumbnail](thumbnail_en.png)
+![Thumbnail](thumbnail_en.jpg)
 
 -> Englisches Readme findet ihr [hier](README_en.md)
 
@@ -134,7 +134,7 @@ Alle Pfade werden sitzungsübergreifend im plattformgerechten Konfigurationsverz
 
 ## 5. Benutzeroberfläche
 
-![Main app window layout](main_window.png)
+![Main app window layout](main_window.jpg)
 
 **Tabs:** Jede Region (Latium / Albion) hat einen eigenen Tab mit unabhängiger Kartenansicht und Seitenleiste. Vorlagen für beide Regionen können gleichzeitig geöffnet sein.
 

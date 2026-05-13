@@ -2,7 +2,7 @@
 
 > A standalone desktop application for creating, editing, and exporting **Anno 117** map templates (`.a7tinfo`).
 
-![Thumbnail](thumbnail_en.png)
+![Thumbnail](thumbnail_en.jpg)
 
 -> Deutsches Readme findet ihr [hier](README_de.md)
 
@@ -134,7 +134,7 @@ All paths are saved across sessions in the platform-appropriate user config dire
 
 ## 5. Interface Overview
 
-![Main app window layout](main_window.png)
+![Main app window layout](main_window.jpg)
 
 **Tabs:** Each region (Latium / Albion) has its own tab with an independent map canvas and side panel. Templates for both regions can be open simultaneously.
 
