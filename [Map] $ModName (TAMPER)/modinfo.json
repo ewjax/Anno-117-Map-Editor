@@ -1,0 +1,79 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "tamper-map-$ModName",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": true,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": false
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Map",
+    "English": "Map",
+    "French": "Map",
+    "German": "Map",
+    "Italian": "Map",
+    "Japanese": "Map",
+    "Korean": "Map",
+    "Polish": "Map",
+    "Russian": "Map",
+    "Spanish": "Map",
+    "Taiwanese": "Map"
+  },
+  "ModName": {
+    "Chinese": "$ModName (TAMPER)",
+    "English": "$ModName (TAMPER)",
+    "French": "$ModName (TAMPER)",
+    "German": "$ModName (TAMPER)",
+    "Italian": "$ModName (TAMPER)",
+    "Japanese": "$ModName (TAMPER)",
+    "Korean": "$ModName (TAMPER)",
+    "Polish": "$ModName (TAMPER)",
+    "Russian": "$ModName (TAMPER)",
+    "Spanish": "$ModName (TAMPER)",
+    "Taiwanese": "$ModName (TAMPER)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "$Description",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "TAMPER",
+  "CreatorContact": "",
+  "Image": null
+}
