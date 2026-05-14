@@ -97,7 +97,6 @@ FileDBReader/RDAConsole ist **nicht** enthalten und muss separat heruntergeladen
 ```bash
 git clone https://github.com/taludas/anno-117-map-editor.git
 cd anno-117-map-editor
-pip install -r requirements.txt
 python main.py
 ```
 
@@ -134,7 +133,7 @@ Alle Pfade werden sitzungsübergreifend im plattformgerechten Konfigurationsverz
 
 ## 5. Benutzeroberfläche
 
-![Main app window layout](main_window.jpg)
+![Main app window layout](main_window.png)
 
 **Tabs:** Jede Region (Latium / Albion) hat einen eigenen Tab mit unabhängiger Kartenansicht und Seitenleiste. Vorlagen für beide Regionen können gleichzeitig geöffnet sein.
 
