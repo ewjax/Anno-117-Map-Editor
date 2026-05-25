@@ -1,4 +1,5 @@
-PACKAGE=app
+PACKAGE=main
+EXENAME=Taludas.Anno.117.Map.Editor
 VENVNAME=tamper
 
 ##############################################################################
@@ -32,24 +33,20 @@ libs.clean:
 #		python main.py
 #
 # exe make targets ###########################
-# Bundle the pywebview entry (app.py) plus the frontend assets and the
-# data/ icons the legacy build already pulled in. Frontend lives outside
-# data/ now so it needs its own --add-data.
-#exe: libs
-#	pyinstaller --onefile --windowed --add-data "data;data" --add-data "frontend;frontend" --add-data "_version.py;." --icon="app_icon.ico" --version-file="file_version_info.txt" --name "Anno 117 Mod Manager" $(PACKAGE).py
+# data/ icons the legacy build already pulled in.
+exe: libs
+	pyinstaller --onefile --windowed --add-data "data;data" --add-data "_version.py;." --icon="app_icon.ico" --version-file="file_version_info.txt" --name $(EXENAME) $(PACKAGE).py
 
-#exe.clean:
-#	rd /s /q build
-#	del /q dist\$(PACKAGE).exe
-#	del /q $(PACKAGE).spec
+exe.clean:
+	-cmd /c rd /s /q build
+	-cmd /c rd /s /q dist
+	-cmd /c del /q $(EXENAME).spec
 
 
 # general make targets ###########################
 
-#all: libs exe
-all: libs
+all: libs exe
 
-#all.clean: libs.clean exe.clean
-all.clean: libs.clean
+all.clean: libs.clean exe.clean
 
 clean: all.clean
